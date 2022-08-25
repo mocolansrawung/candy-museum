@@ -70,7 +70,51 @@
       </div>
     </section>
 
-    <!-- Optional JavaScript -->
+    <!-- Section: Second Page -->
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="imgs/milk.png" alt=""">
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-1"></div>
+            <div class="col-10 col-lg-8 blurb my-5 my-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias tempore et quaerat ut, optio facilis explicabo quasi. Doloremque odio ea amet unde suscipit tenetur nulla minima saepe repellendus aperiam.
+              </p>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Third Page -->
+    <section class="container-fluid px-0">
+      <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-1"></div>
+            <div class="col-10 col-lg-8 blurb my-5 my-md-0">
+              <h2>MUSEUM OF CANDY</h2>
+              <img class="d-none d-lg-inline" src="imgs/lolli_icon.png" alt="">
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia alias tempore et quaerat ut, optio facilis explicabo quasi. Doloremque odio ea amet unde suscipit tenetur nulla minima saepe repellendus aperiam.
+              </p>
+            </div>
+            <div class="col-1"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="imgs/gumball.png" alt=""">
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional: JavaScript -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -86,5 +130,13 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function () {
+        $(document).scrolled(function(){
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        })
+      })
+    </script>
   </body>
 </html>
