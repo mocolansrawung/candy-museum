@@ -1,4 +1,4 @@
-# candy-museum
+simple bootstrap, css, and html project
 
 this my first project pushed on github. the project idea originally created by Colt Steele from an Udemy course which I used to remake it as my own portfolio.
 
